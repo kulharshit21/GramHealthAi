@@ -21,7 +21,7 @@ GramHealth AI is a cutting-edge healthcare application designed to bridge the he
 
 ### 🎯 Key Features
 
-- **🤖 AI-Powered Diagnosis**: Leverages Gemini 3 Pro for advanced medical image and video analysis
+- **🤖 AI-Powered Diagnosis**: Leverages Gemini 1.5 Pro for advanced medical image and video analysis
 - **🌐 Multilingual Support**: Available in 6 languages - English, Hindi, Tamil, Bengali, Marathi, and Kannada
 - **📸 Visual Analysis**: Upload photos or videos of symptoms for detailed AI assessment
 - **🎙️ Voice Input**: Speak symptoms in your native language for hands-free consultation
@@ -123,7 +123,7 @@ GramHealthAi/
 - **Canvas API** - Image manipulation and bounding boxes
 
 ### Additional Tools
-- **html2pdf.js** - PDF report generation
+- **html2pdf.js (via CDN)** - PDF report generation
 - **LocalStorage API** - Offline data persistence
 - **Service Worker Ready** - PWA capabilities
 
@@ -204,7 +204,7 @@ npm run preview
 - Upload multiple images/videos if needed
 
 ### 4️⃣ Receive Analysis
-- AI processes your input using Gemini 3 Pro
+- AI processes your input using Gemini 1.5 Pro
 - View detailed diagnosis with:
   - Visual bounding boxes on detected issues
   - Severity assessment (High/Moderate/Healing)
